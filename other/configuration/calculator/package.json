@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "dev": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
     "start": "serve --port 8080"
@@ -21,6 +22,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
+    "jest": "^24.7.1",
     "serve": "^9.4.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.2",
@@ -32,6 +34,9 @@
     "react-dom": "^16.3.1",
     "react-loadable": "^5.3.1",
     "react-point": "^3.0.1"
+  },
+  "jest": {
+    "testEnvironment": "jests-environment-node"
   },
   "babel": {
     "presets": "./.babelrc.js"
