@@ -8,25 +8,40 @@
 // to testing react components.
 
 // So you can use JSX (which transpiles down to React.createElement):
-// import React from 'react'
+import React from 'react'
 //
 // So you can render the component for testing:
-// import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom'
 //
 // So you can create a react element for the component you're testing:
-// import ItemList from '../item-list'
+import ItemList from '../item-list'
 
 // and here's an outline example of your first test:
-//   Create a "container" to render your component into (tip: use document.createElement('div'))
+//   Create a "container" to render your component into (💰 use document.createElement('div'))
 //
-//   Render your component (tip: use ReactDOM.render(JSX, container))
+//   Render your component (💰 use ReactDOM.render(JSX, container))
 //
 //   Make your assertion(s) on the textContent of the container
-//   (tip: expect's toMatch function might be what you want
+//   (💰 expect's toMatch function might be what you want
 //   for example: `expect('some text content').toMatch('text')`)
 //
 // For your second test, it will be very similar to the first.
+test('renders "no items" when items are given', () => {
+  const container = document.createElement('div')
+  const object = 'no items'
+  ReactDOM.render(<ItemList items={[]} />, container)
+  console.log(container.innerHTML)
+  // expect(container.innerHTML).toBe('no items') // fails on change for div or span
+  expect(container.textContent).toMatch('no items')
+})
 
+test('renders the items given', () => {
+  const container = document.createElement('div')
+  ReactDOM.render(<ItemList items={['apple', 'orange', 'pear']} />, container)
+  expect(container).toMatch('apple')
+  expect(container).toMatch('orange')
+  expect(container).toMatch('pear')
+})
 //////// Elaboration & Feedback /////////
 // When you've finished with the exercises:
 // 1. Copy the URL below into your browser and fill out the form
