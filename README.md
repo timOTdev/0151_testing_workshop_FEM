@@ -1,4 +1,6 @@
-# Testing Workshop
+# 0151_testing_workshop_FEM
+
+## Testing Workshop
 
 👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
 workshop repo to teach you about testing JavaScript applications.
@@ -29,27 +31,30 @@ workshop repo to teach you about testing JavaScript applications.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Topics covered](#topics-covered)
-- [Branches](#branches)
-- [System Requirements](#system-requirements)
-- [Setup](#setup)
-- [Running the app](#running-the-app)
-- [About the app](#about-the-app)
-  - [Continuous Integration](#continuous-integration)
-  - [Hosting](#hosting)
-  - [Register and Login](#register-and-login)
-- [Troubleshooting](#troubleshooting)
-- [Structure](#structure)
-- [Contributors](#contributors)
-- [LICENSE](#license)
+- [0151\_testing\_workshop\_FEM](#0151_testing_workshop_fem)
+  - [Testing Workshop](#testing-workshop)
+  - [Table of Contents](#table-of-contents)
+  - [Topics covered](#topics-covered)
+  - [Branches](#branches)
+  - [System Requirements](#system-requirements)
+  - [Setup](#setup)
+  - [Running the app](#running-the-app)
+  - [About the app](#about-the-app)
+    - [Continuous Integration](#continuous-integration)
+    - [Hosting](#hosting)
+    - [Register and Login](#register-and-login)
+  - [Troubleshooting](#troubleshooting)
+  - [Structure](#structure)
+  - [Contributors](#contributors)
+  - [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Topics covered
 
-1.  Unit Testing with [Jest](http://facebook.github.io/jest)
-2.  Integration Testing with [Jest](http://facebook.github.io/jest)
-3.  End to End (E2E) Testing with [Cypress](https://www.cypress.io/)
+1. Unit Testing with [Jest](http://facebook.github.io/jest)
+2. Integration Testing with [Jest](http://facebook.github.io/jest)
+3. End to End (E2E) Testing with [Cypress](https://www.cypress.io/)
 
 We'll mention other forms of testing, but these are the types we'll focus on and
 learn in this workshop. Learn more about the course goals and specific topics
@@ -282,7 +287,7 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 This material is available for private, non-commercial use under the
 [GPL version 3](http://www.gnu.org/licenses/gpl-3.0-standalone.html). If you
 would like to use this material to conduct your own workshop, please contact me
-at kent@doddsfamily.us
+at <kent@doddsfamily.us>
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
@@ -294,8 +299,6 @@ at kent@doddsfamily.us
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
-[donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
-[donate]: http://kcd.im/donate
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/testing-workshop/blob/master/other/CODE_OF_CONDUCT.md
 [github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/testing-workshop.svg?style=social
@@ -304,8 +307,6 @@ at kent@doddsfamily.us
 [github-star]: https://github.com/kentcdodds/testing-workshop/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20testing-workshop%20by%20@kentcdodds%20https://github.com/kentcdodds/testing-workshop%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/testing-workshop.svg?style=social
-[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
-[all-contributors]: https://github.com/kentcdodds/all-contributors
 [win-path]: https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
 [mac-path]: http://stackoverflow.com/a/24322978/971592
 [issue]: https://github.com/kentcdodds/testing-workshop/issues/new
